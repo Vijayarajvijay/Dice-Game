@@ -42,7 +42,7 @@ function rolldice2()
        
         document.getElementById("myBtn1").disabled = true;
         document.getElementById("myBtn2").disabled = true;
-        document.getElementById("resulmain").innerText= "🥇 Well Done! Player1 win 🎊✨🙌"    
+        document.getElementById("resulmain").innerText= "🥇 Well Done! Player2 win 🎊✨🙌"    
     }
 
 
