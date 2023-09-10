@@ -41,11 +41,11 @@
   margin-top: 70px;
 }
 .hero-main {
-  margin-top: 140px;
-  margin-left: 400px;
+  margin-top: 20px;
+  margin-left: 190px;
   border: 1px solid;
-  width: 1000px;
-  height: 650px;
+  width: 980px;
+  height: 620px;
   background-color: rgb(216, 250, 239);
   border-radius: 20px;
 }
@@ -69,4 +69,7 @@ body {
 }
 .reset{
     background-color: rgb(247, 108, 132);
+}
+body{
+  overflow: hidden;
 }
