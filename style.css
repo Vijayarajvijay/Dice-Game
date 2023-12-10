@@ -41,16 +41,18 @@
   margin-top: 70px;
 }
 .hero-main {
-  margin-top: 20px;
-  margin-left: 190px;
+  margin-top: 0px;
+  margin-left: 260px;
   border: 1px solid;
-  width: 980px;
-  height: 620px;
+  width: 1045px;
+  height: 677px;
   background-color: rgb(216, 250, 239);
   border-radius: 20px;
+  padding: 40px;
 }
 body {
   background-color: black !important;
+  padding: 110px;
 }
 
 .container {
@@ -72,4 +74,33 @@ body {
 }
 body{
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .col {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive design for even smaller devices */
+@media (max-width: 576px) {
+  .col {
+    flex: 0 0 100%;
+    max-width: 100%;
+  
+  }
+
+  .dice {
+    width: 100px;
+    height: 100px;
+  }
+.hero-main{
+  margin-top: 800px;
+margin-left: 0px;
+}
 }
