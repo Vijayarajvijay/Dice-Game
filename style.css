@@ -41,18 +41,18 @@
   margin-top: 70px;
 }
 .hero-main {
-  margin-top: 0px;
-  margin-left: 260px;
+  margin-top: -23px;
+  margin-left: 85px;
   border: 1px solid;
-  width: 1045px;
-  height: 677px;
+  width: 981px;
+  height: 540px;
   background-color: rgb(216, 250, 239);
   border-radius: 20px;
-  padding: 40px;
+  padding: 0px;
 }
 body {
   background-color: black !important;
-  padding: 110px;
+ 
 }
 
 .container {
